@@ -48,7 +48,7 @@ function love.load()
 	groupDrop.choiceH = 25
 	groupDrop.choiceBckClr = {0.9,0.9,0.9}
 	
-	settingsButton = sb.new("Fuck", (screen.x / 5) * 4, 7, (screen.y / 5) - 7, (screen.y / 5) - 7)
+	settingsButton = sb.new("Edit", (screen.x / 5) * 4, 7, (screen.y / 5) - 7, (screen.y / 5) - 7)
 	function settingsButton.onClick()
 		if menuState == "Settings" then
 			setMenuState("Main")
@@ -67,7 +67,7 @@ function love.load()
 		
 	end
 	
-	randomGameB = sb.new("GIVE ME A FUCKIN' GAME!", 7, (screen.y / 5) + 14, screen.x - 14, ((screen.y / 5) * 4) - 28)
+	randomGameB = sb.new("GIVE ME A GAME!", 7, (screen.y / 5) + 14, screen.x - 14, ((screen.y / 5) * 4) - 28)
 	function randomGameB.onClick()
 		setMenuState("Reroll")
 	

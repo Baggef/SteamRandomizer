@@ -5,7 +5,7 @@ local textfield = {}
 textfield.focusedField = nil
 textfield.fields = {}
 
-textfield.useCursor = true
+textfield.useCursor = false
 textfield.cursorLifetime = 0
 textfield.cursorAlpha = 1
 
